@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.yezi.qqviewswipe.QqViewSwipeLayout
+    android:id="@+id/swipe_view"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:background="@android:color/holo_red_light"
+        android:gravity="center"
+        android:text="Hello World!"/>
+
+    <com.yezi.qqviewswipe.TextViewWithDis
+        android:id="@+id/menu1"
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        android:background="@android:color/holo_green_light"
+        android:gravity="center"
+        android:padding="20dp"
+        android:text="置顶"/>
+
+    <com.yezi.qqviewswipe.TextViewWithDis
+        android:id="@+id/menu2"
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        android:background="@android:color/holo_blue_bright"
+        android:gravity="center"
+        android:padding="20dp"
+        android:text="标为未读"/>
+
+    <com.yezi.qqviewswipe.TextViewWithDis
+        android:id="@+id/menu3"
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        android:background="@android:color/holo_orange_light"
+        android:gravity="center"
+        android:padding="20dp"
+        android:text="删除"/>
+</com.yezi.qqviewswipe.QqViewSwipeLayout>
